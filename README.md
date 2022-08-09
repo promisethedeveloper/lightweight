@@ -42,7 +42,7 @@ On Light Weight, users can search and select from the list of exercises provided
 
 ## API
 
-- Light Weight API
+- [Light Weight API](https://lightweight-backend.herokuapp.com/)
 
 ## Deployment
 
