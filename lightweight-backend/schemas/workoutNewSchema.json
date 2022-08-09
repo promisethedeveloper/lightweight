@@ -1,0 +1,31 @@
+{
+	"$schema": "https://json-schema.org/draft/2019-09/schema",
+	"$id": "http://example.com/example.json",
+	"type": "object",
+	"default": {},
+	"title": "Root Schema",
+	"required": ["dayOfWeek", "description", "user_id"],
+	"properties": {
+		"dayOfWeek": {
+			"type": "string",
+			"minLength": 1,
+			"maxLength": 30
+		},
+		"description": {
+			"type": "string",
+			"minLength": 1,
+			"maxLength": 30
+		},
+		"user_id": {
+			"type": "integer",
+			"minimum": 0
+		}
+	},
+	"examples": [
+		{
+			"dayOfWeek": "Monday",
+			"description": "Chest day",
+			"user_id": "1"
+		}
+	]
+}

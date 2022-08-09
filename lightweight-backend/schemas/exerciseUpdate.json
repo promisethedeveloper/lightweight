@@ -1,0 +1,33 @@
+{
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"$id": "http://example.com/example.json",
+	"type": "object",
+	"properties": {
+		"name": {
+			"type": "string",
+			"minLength": 1,
+			"maxLength": 30
+		},
+		"bodyPart": {
+			"type": "string",
+			"minLength": 1,
+			"maxLength": 30
+		},
+		"equipment": {
+			"type": "string",
+			"minLength": 1,
+			"maxLength": 30
+		},
+		"gifUrl": {
+			"type": "string",
+			"format": "uri"
+		},
+		"target": {
+			"type": "string",
+			"minLength": 1,
+			"maxLength": 30
+		}
+	},
+	"additionalProperties": false,
+	"required": []
+}

@@ -1,0 +1,110 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match snapshots 1`] = `
+<DocumentFragment>
+  <div
+    class="LoginForm"
+  >
+    <div
+      class="container col-md-6 offset-md-3 col-lg-4 offset-lg-4"
+    >
+      <h3
+        class="mb-3"
+      >
+        Add workout day
+      </h3>
+      <div
+        class="card"
+      >
+        <div
+          class="card-body"
+        >
+          <form>
+            <div
+              class="form-group"
+            >
+              <label
+                for="dayOfWeek"
+              >
+                Day of week
+              </label>
+              <select
+                class="form-control"
+                id="dayOfWeek"
+                name="dayOfWeek"
+              >
+                <option
+                  value="Monday"
+                >
+                  Monday
+                </option>
+                <option
+                  value="Tuesday"
+                >
+                  Tuesday
+                </option>
+                <option
+                  value="Wednesday"
+                >
+                  Wednesday
+                </option>
+                <option
+                  value="Thursday"
+                >
+                  Thursday
+                </option>
+                <option
+                  value="Friday"
+                >
+                  Friday
+                </option>
+                <option
+                  value="Saturday"
+                >
+                  Saturday
+                </option>
+                <option
+                  value="Sunday"
+                >
+                  Sunday
+                </option>
+              </select>
+            </div>
+            <div
+              class="form-group"
+            >
+              <label
+                for="description"
+              >
+                Description
+              </label>
+              <input
+                class="form-control"
+                id="description"
+                name="description"
+                placeholder="ex. Chest day"
+                required=""
+                value=""
+              />
+            </div>
+            <button
+              class="btn float-right font-weight-bold"
+              style="background-color: rgb(70, 17, 17); color: white;"
+            >
+              Save
+            </button>
+            <a
+              class="btn float-right font-weight-bold"
+              href="/workouts"
+              role="button"
+              style="background-color: rgb(255, 30, 0); color: white; margin-right: 5px;"
+            >
+              Cancel
+            </a>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

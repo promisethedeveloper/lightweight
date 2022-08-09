@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should match snapshots 1`] = `
+<DocumentFragment>
+  <div
+    class="d-flex flex-row border m-3"
+  >
+    <div
+      class="mr-1"
+    >
+      #NaN
+    </div>
+    <div>
+      <div
+        class="dropdown"
+      >
+        <button
+          aria-expanded="false"
+          class="dropdown-toggle btn btn-blue"
+          id="dropdown-basic"
+          type="button"
+        />
+      </div>
+    </div>
+    <div
+      class="flex-grow-1 ml-5"
+    >
+      <p>
+        <strong />
+      </p>
+      <p>
+         sets x  reps ()
+      </p>
+    </div>
+    <div>
+      <a
+        href="/exercise/undefined"
+      >
+        <button
+          class="btn btn-sm"
+          style="background-color: rgb(70, 17, 17); color: white;"
+        >
+          View
+        </button>
+      </a>
+    </div>
+  </div>
+</DocumentFragment>
+`;

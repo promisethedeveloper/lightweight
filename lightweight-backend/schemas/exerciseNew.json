@@ -1,0 +1,49 @@
+{
+	"$schema": "https://json-schema.org/draft/2019-09/schema",
+	"$id": "http://example.com/example.json",
+	"type": "object",
+	"default": {},
+	"title": "Root Schema",
+	"required": ["name", "bodyPart", "equipment", "gifUrl", "target"],
+	"properties": {
+		"name": {
+			"type": "string",
+			"default": "",
+			"title": "The name Schema",
+			"examples": ["dumbbell bench press"]
+		},
+		"bodyPart": {
+			"type": "string",
+			"default": "",
+			"title": "The bodyPart Schema",
+			"examples": ["chest"]
+		},
+		"equipment": {
+			"type": "string",
+			"default": "",
+			"title": "The equipment Schema",
+			"examples": ["dumbbell"]
+		},
+		"gifUrl": {
+			"type": "string",
+			"default": "",
+			"title": "The gifUrl Schema",
+			"examples": ["http://d205bpvrqc9yn1.cloudfront.net/0289.gif"]
+		},
+		"target": {
+			"type": "string",
+			"default": "",
+			"title": "The target Schema",
+			"examples": ["pectorals"]
+		}
+	},
+	"examples": [
+		{
+			"name": "dumbbell bench press",
+			"bodyPart": "chest",
+			"equipment": "dumbbell",
+			"gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0289.gif",
+			"target": "pectorals"
+		}
+	]
+}

@@ -1,0 +1,17 @@
+.SignupForm-heading {
+	color: #461111;
+}
+
+label {
+	color: #a13333;
+}
+
+.SignupForm-button {
+	color: white;
+	background-color: #461111;
+}
+
+button:hover {
+	background-color: #a13333;
+	color: white;
+}

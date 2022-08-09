@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap");
+
+.Navigation {
+	background-color: white;
+	border-bottom: 2px solid rgba(0, 0, 0, 0.125);
+}
+
+.nav-link.active {
+	font-weight: bold;
+	color: black;
+}
+
+h4 {
+	font-weight: 600;
+	font-family: "Open Sans", sans-serif;
+}
+
+.Navigation-brand {
+	color: #040303;
+	font-weight: 700;
+}
+
+.nav-link {
+	color: #040303;
+}

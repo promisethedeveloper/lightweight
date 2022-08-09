@@ -1,0 +1,19 @@
+p {
+	color: #b3541e;
+}
+
+h5 {
+	font-weight: 600;
+}
+
+.workday-toggle {
+	color: #461111;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.WorkoutDay-edit-button {
+	color: #461111;
+}
