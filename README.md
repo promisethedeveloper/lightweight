@@ -1,9 +1,11 @@
 # Light Weight
 
+**Website URL**:https://soggy-queen.surge.sh/
+
 Light Weight is a full-stack database-driven website for searching and planning of workouts by users.
 Before now, my daily exercises were saved as screenshots on my phone, and the weights I exercised with were typed on the notes app on my phone.
 
-<img src="/public/notes.png" width="425"/> <img src="/public/old-workouts.png" width="400"/>
+<img src="./lightweight-frontend/public/notes.png" width="425"/> <img src="./lightweight-frontend/public/old-workouts.png" width="400"/>
 
 After I learnt React and Node, I decided to create a website that will help me with the planning of my daily exercises.
 
@@ -13,13 +15,13 @@ The API for this website - that provides exercises for users to choose from - wa
 
 On Light Weight, users can search and select from the list of exercises provided by the backend, and add them to their daily workout routines. The weight, sets, and reps at which the exercises are performed are also added by the user.
 
-| ![Exercises search page](/public/exerciseSearch.png) |
-| :--------------------------------------------------: |
-|       _Exercises search page on Light Weight_        |
+| ![Exercises search page](./lightweight-frontend/public/exerciseSearch.png) |
+| :------------------------------------------------------------------------: |
+|                  _Exercises search page on Light Weight_                   |
 
-| ![Workouts](/public/workouts.png) |
-| :-------------------------------: |
-|  _Workouts page on Light Weight_  |
+| ![Workouts](./lightweight-frontend/public/workouts.png) |
+| :-----------------------------------------------------: |
+|             _Workouts page on Light Weight_             |
 
 ## Application features
 
@@ -51,7 +53,7 @@ On Light Weight, users can search and select from the list of exercises provided
 - A postgreSQL database is used to implement the database schema. The database schema is made up of 4 tables: user, workouts, exercises, and loggedexercises.
 - The relationships between these tables are shown on the image below.
 
-![Light Weight schema](/public/database-schema.png)
+![Light Weight schema](./lightweight-frontend/public/database-schema.png)
 
 ## Getting started
 
