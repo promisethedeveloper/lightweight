@@ -2,10 +2,11 @@
 
 **Website URL**:https://soggy-queen.surge.sh/
 
-Light Weight is a full-stack database-driven website for searching and planning of workouts by users.
-Before now, my daily exercises were saved as screenshots on my phone, and the weights I exercised with were typed on the notes app on my phone.
+Light Weight is a full-stack database-driven website for searching and planning of workouts by users. Before now, my daily exercises were saved as screenshots on my phone, and the weights I exercised with were typed on the notes app on my phone.
 
 <img src="./lightweight-frontend/public/notes.png" width="425"/> <img src="./lightweight-frontend/public/old-workouts.png" width="400"/>
+
+Every morning, I had to scroll through my gallery to see my exercises for the day. I updated the weights I exercised with by typing the figures down on my notes app. This was not so much of a tedious process, but I knew I needed some automation, so I built light weight to help me with the whole process.
 
 The API for this website - that provides exercises for users to choose from - was built by me from scratch using Node JS. The information on the API were gotten from [ExerciseDB](https://rapidapi.com/justin-WFnsXH_t6/api/exercisedb/), and [Wger.de](https://wger.de/en/workout/overview) was used as an inspiration for the building of the user interface.
 
