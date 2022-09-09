@@ -7,8 +7,6 @@ Before now, my daily exercises were saved as screenshots on my phone, and the we
 
 <img src="./lightweight-frontend/public/notes.png" width="425"/> <img src="./lightweight-frontend/public/old-workouts.png" width="400"/>
 
-After I learnt React and Node, I decided to create a website that will help me with the planning of my daily exercises.
-
 The API for this website - that provides exercises for users to choose from - was built by me from scratch using Node JS. The information on the API were gotten from [ExerciseDB](https://rapidapi.com/justin-WFnsXH_t6/api/exercisedb/), and [Wger.de](https://wger.de/en/workout/overview) was used as an inspiration for the building of the user interface.
 
 ## What Light Weight does?
